@@ -10216,3 +10216,381 @@ a.text-dark:focus {
     border-right: none !important;
   }
 }
+
+.main-container {
+  width: 370px;
+  margin-left: 15px;
+  display: flex;
+  padding: 0;
+  position: relative;
+  height: 600px;
+}
+
+.location {
+  margin-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.location-container {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.left-side {
+  width: 170px;
+  border-right: 2px solid #818491;
+  position: relative;
+}
+.right-side {
+  width: 170px;
+  position: relative;
+}
+
+.dot {
+  width: 15px;
+  height: 15px;
+  background-color: #818491;
+  border-radius: 50%;
+  position: absolute;
+  top: -7px;
+  right: 179px;
+}
+.bottom-dot {
+  width: 15px;
+  height: 15px;
+  background-color: #818491;
+  border-radius: 50%;
+  position: absolute;
+  bottom: -7px;
+  right: 179px;
+}
+
+.story-img {
+  width: 200px;
+  display: block;
+}
+.registration-img {
+  margin-top: 100px;
+}
+
+.furshet {
+  position: absolute;
+  top: 100px;
+  left: 15px;
+  color: #000;
+  font-weight: 600;
+}
+.furshet::after {
+  content: " ";
+  display: inline-block;
+  position: absolute;
+  margin-left: 9px;
+  top: 10px;
+  border-top: 3px dotted #818491;
+  height: 1px;
+  width: 105px;
+}
+.furshet::before {
+  content: "Welcome drinks";
+  display: inline-block;
+  width: 100px;
+  position: absolute;
+  color: #000;
+  font-weight: 600;
+  top: -40px;
+  right: -109px;
+}
+
+.registration {
+  position: absolute;
+  top: 200px;
+  left: 117px;
+  color: #000;
+  font-weight: 600;
+}
+.registration::before {
+  content: " ";
+  display: inline-block;
+  position: absolute;
+  top: 10px;
+  right: 50px;
+  border-top: 3px dotted #818491;
+  height: 1px;
+  width: 105px;
+}
+.registration::after {
+  content: "Ceremony";
+  display: inline-block;
+  position: absolute;
+  color: #000;
+  font-weight: 600;
+  top: -15px;
+  left: -96px;
+}
+
+.dinner {
+  position: absolute;
+  top: 300px;
+  left: 15px;
+  color: #000;
+  font-weight: 600;
+}
+.dinner::after {
+  content: " ";
+  display: inline-block;
+  position: absolute;
+  margin-left: 9px;
+  top: 10px;
+  border-top: 3px dotted #818491;
+  height: 1px;
+  width: 105px;
+}
+.dinner::before {
+  content: "Dinner";
+  display: inline-block;
+  width: 100px;
+  position: absolute;
+  color: #000;
+  font-weight: 600;
+  top: -15px;
+  right: -109px;
+}
+
+.cake {
+  position: absolute;
+  top: 380px;
+  left: 117px;
+  color: #000;
+  font-weight: 600;
+}
+.cake::before {
+  content: " ";
+  display: inline-block;
+  position: absolute;
+  top: 10px;
+  right: 50px;
+  border-top: 3px dotted #818491;
+  height: 1px;
+  width: 105px;
+}
+.cake::after {
+  content: "Cake";
+  display: inline-block;
+  position: absolute;
+  color: #000;
+  font-weight: 600;
+  top: -15px;
+  left: -96px;
+}
+
+.end {
+  position: absolute;
+  top: 500px;
+  left: 15px;
+  color: #000;
+  font-weight: 600;
+}
+.end::after {
+  content: " ";
+  display: inline-block;
+  position: absolute;
+  margin-left: 9px;
+  top: 10px;
+  border-top: 3px dotted #818491;
+  height: 1px;
+  width: 105px;
+}
+.end::before {
+  content: "The end of party";
+  display: inline-block;
+  width: 100px;
+  position: absolute;
+  color: #000;
+  font-weight: 600;
+  top: -40px;
+  right: -109px;
+}
+
+@media (min-width: 767.98px) {
+  .main-container {
+    width: 400px;
+    margin-left: 0;
+    display: flex;
+    padding: 0;
+    position: relative;
+    height: 600px;
+  }
+  .left-side {
+    width: 283px;
+    border-right: 2px solid #818491;
+    position: relative;
+  }
+  .right-side {
+    width: 283px;
+    position: relative;
+  }
+
+  .dot {
+    width: 15px;
+    height: 15px;
+    background-color: #818491;
+    border-radius: 50%;
+    position: absolute;
+    top: -7px;
+    right: 280px;
+  }
+  .bottom-dot {
+    width: 15px;
+    height: 15px;
+    background-color: #818491;
+    border-radius: 50%;
+    position: absolute;
+    bottom: -7px;
+    right: 280px;
+  }
+
+  .registration-img {
+    margin-top: 100px;
+    margin-left: 80px;
+  }
+  .cake-img {
+    margin-left: 80px;
+  }
+
+  .furshet {
+    position: absolute;
+    top: 100px;
+    left: 0;
+    color: #000;
+    font-weight: 600;
+  }
+  .furshet::after {
+    content: " ";
+    display: inline-block;
+    position: absolute;
+    margin-left: 9px;
+    top: 10px;
+    border-top: 3px dotted #818491;
+    height: 1px;
+    width: 233px;
+  }
+  .furshet::before {
+    content: "Welcome drinks";
+    display: inline-block;
+    position: absolute;
+    color: #000;
+    font-weight: 600;
+    top: -15px;
+    right: -150px;
+  }
+
+  .dinner {
+    position: absolute;
+    top: 300px;
+    left: 0;
+    color: #000;
+    font-weight: 600;
+  }
+  .dinner::after {
+    content: " ";
+    display: inline-block;
+    position: absolute;
+    margin-left: 9px;
+    top: 10px;
+    border-top: 3px dotted #818491;
+    height: 1px;
+    width: 233px;
+  }
+  .dinner::before {
+    content: "Dinner";
+    display: inline-block;
+    position: absolute;
+    color: #000;
+    font-weight: 600;
+    top: -15px;
+    right: -150px;
+  }
+
+  .end {
+    position: absolute;
+    top: 500px;
+    left: 0;
+    color: #000;
+    font-weight: 600;
+  }
+  .end::after {
+    content: " ";
+    display: inline-block;
+    position: absolute;
+    margin-left: 9px;
+    top: 10px;
+    border-top: 3px dotted #818491;
+    height: 1px;
+    width: 233px;
+  }
+  .end::before {
+    content: "The end of party";
+    display: inline-block;
+    position: absolute;
+    color: #000;
+    font-weight: 600;
+    top: -15px;
+    right: -200px;
+  }
+
+  .registration {
+    position: absolute;
+    top: 200px;
+    left: 243px;
+    color: #000;
+    font-weight: 600;
+  }
+  .registration::before {
+    content: " ";
+    display: inline-block;
+    position: absolute;
+    top: 10px;
+    right: 50px;
+    border-top: 3px dotted #818491;
+    height: 1px;
+    width: 233px;
+  }
+  .registration::after {
+    content: "Ceremony";
+    display: inline-block;
+    position: absolute;
+    color: #000;
+    font-weight: 600;
+    top: -15px;
+    left: -150px;
+  }
+
+  .cake {
+    position: absolute;
+    top: 400px;
+    left: 243px;
+    color: #000;
+    font-weight: 600;
+  }
+  .cake::before {
+    content: " ";
+    display: inline-block;
+    position: absolute;
+    top: 10px;
+    right: 50px;
+    border-top: 3px dotted #818491;
+    height: 1px;
+    width: 233px;
+  }
+  .cake::after {
+    content: "Cake";
+    display: inline-block;
+    position: absolute;
+    color: #000;
+    font-weight: 600;
+    top: -15px;
+    left: -150px;
+  }
+}
