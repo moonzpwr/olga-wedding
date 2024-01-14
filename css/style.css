@@ -10218,24 +10218,28 @@ a.text-dark:focus {
 }
 
 .main-container {
-  width: 370px;
-  margin-left: 15px;
+  width: 345px;
   display: flex;
   padding: 0;
   position: relative;
   height: 600px;
 }
 
-.location {
-  margin-bottom: 40px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
 .location-container {
   display: flex;
   align-items: center;
+  justify-content: center;
   gap: 5px;
+  font-size: 3.5rem;
+}
+
+.location-container a {
+  color: black;
+}
+
+.location-container a:hover,
+.location-container a:focus {
+  color: #aaa7c9;
 }
 
 .left-side {
@@ -10255,7 +10259,7 @@ a.text-dark:focus {
   border-radius: 50%;
   position: absolute;
   top: -7px;
-  right: 179px;
+  right: 169px;
 }
 .bottom-dot {
   width: 15px;
@@ -10264,11 +10268,11 @@ a.text-dark:focus {
   border-radius: 50%;
   position: absolute;
   bottom: -7px;
-  right: 179px;
+  right: 169px;
 }
 
 .story-img {
-  width: 200px;
+  width: 170px;
   display: block;
 }
 .registration-img {
@@ -10385,6 +10389,10 @@ a.text-dark:focus {
   left: -96px;
 }
 
+.mob-img {
+  margin-top: 20px;
+}
+
 .end {
   position: absolute;
   top: 500px;
@@ -10457,6 +10465,13 @@ a.text-dark:focus {
   }
   .cake-img {
     margin-left: 80px;
+  }
+  .mob-img {
+    margin-top: 0;
+  }
+  .story-img {
+    width: 200px;
+    display: block;
   }
 
   .furshet {
