@@ -10421,6 +10421,10 @@ a.text-dark:focus {
   right: -109px;
 }
 
+.reverse {
+  flex-direction: column-reverse;
+}
+
 @media (min-width: 767.98px) {
   .main-container {
     width: 400px;
@@ -10607,5 +10611,8 @@ a.text-dark:focus {
     font-weight: 600;
     top: -15px;
     left: -150px;
+  }
+  .reverse {
+    flex-direction: row;
   }
 }
